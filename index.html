@@ -1,0 +1,37 @@
+<!DOCYPE html>
+<html>
+<head>
+    <charset="utf-8">
+        <title></title>
+</head>
+<body>
+    <h1>
+        <center>Abbreviation Syntax</center>
+    </h1>
+    <center><img src="emmet.jpg" height="200px"></center>
+    <p>Emmet uses syntax similar to CSS selectors for describing elements' positions inside genrated tree and element's attribute</p>
+    <h3>Element</h3>
+    <p>You can use elements's names like div or p to generate HTML tags. Emmet doesn't have a predefined set of available tag
+        names, you can write any word and transform it to a tag:
+        <code>div</code> &rarr;
+        <code>&lt;div&gt;</code>
+        <code>&lt;/div&gt;</code> ,
+        <code>foo</code> &rarr;
+        <code>&lt;foo&gt;</code>
+        <code>&lt;/foo&gt;</code> and so on.
+        <h3>Nesting Operator</h3>
+        <p>Nesting Operators are used to position abbreviation elements inside generated tree: wheter it should be placed inside
+            or near the context element. </p>
+        <h4>Child: &gt;</h4> You can use &gt; operator to nest elements inside each other:
+        <blockquote>
+            <code>div>ul>li</code>
+        </blockquote> ...will produce
+        <blockquote>
+            <pre>&lt;div&gt;
+     &lt;ul&gt;
+        &lt;li&gt;
+     &lt;ul&gt;
+&lt;div&gt;
+</pre> </blockquote>
+</body>
+</html>
