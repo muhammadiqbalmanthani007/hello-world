@@ -1,10 +1,53 @@
-h1 {
-    color: orange;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center
+
+/*
+.main-header {
+    font-size: 25px;
+    float: left;
+    margin:0 0 30px 0;
+    padding: 5px 0 0 0 ;
+    width: 100%;
+  background-image:url('https://images.unsplash.com/photo-1532787799187-93655e51d472?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4204f92112fc32c4bb11d40b70f3e0e6&auto=format&fit=crop&w=500&q=60');
+    color: brown;
+    font: bold;
+}
+*/
+
+#nav {
+    list-style-type: none;      /*untuk menghilangkan tanda list*/
+    background: #f1f1f1;       /*latar belakang untuk elemen list ketika belum aktif*/
+    width: 150px;               /*lebar untuk kotak list*/
+    margin: 0;
+    padding: 0;                 /*setting padding untuk kotak ul*/
+    border:1px #555 solid ;    /*setting border untuk kotak ul*/
+    position: fixed;
+    height: 100%;
+    overflow: auto;
 }
 
-p {
-    background: green;
-    font-size: 24px
+li a {
+    font-size: 20px;            /*ukuran tulisan navigasi*/
+    text-decoration: none;      /*untuk menghilangkan dekorasi teks seperti garis bawah */
+    display: block;             /*menjadikan elemen list nya berjenis block-level*/
+    padding: 8px 10px;          /*setting padding untuk list, atas bawah 8 pixel, kiri kanan 10 pixel*/
+    border-bottom: 1px #555 solid; /*dari selectr #nav, properti border nya belum
+                                        membuat garis bagian bawah masing-masing menu. Nah dengan
+                                        perintah ini, kita membuat garis bagian bawah untuk masing-masing menu*/
+    /*text-align: justify*/             /*menjadikan teks tulisan menu di tengah*/
+}
+
+li a:hover {
+    background-color: green;    /*jika aktif, latar belakang akan berwarna hijau*/
+    color: white;               /*jika aktif, tulisan akan berwarna putih*/
+}
+
+main {
+    margin-top: 1%;
+    margin-left:12%;            /*margin kiri untuk bagian utama halaman*/
+    padding:0px 16px;          /*ukuran padding bagian utama*/
+    height:1000px;          /*ini dibuat 1000px hanya untuk ngecek
+                            kalau fixed navigation bar nya bekerja*/
+}
+
+footer {
+    margin-left: 12%;
 }
