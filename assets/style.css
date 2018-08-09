@@ -1,30 +1,26 @@
-
-/*
-.main-header {
-    font-size: 25px;
-    float: left;
-    margin:0 0 30px 0;
-    padding: 5px 0 0 0 ;
-    width: 100%;
-  background-image:url('https://images.unsplash.com/photo-1532787799187-93655e51d472?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4204f92112fc32c4bb11d40b70f3e0e6&auto=format&fit=crop&w=500&q=60');
-    color: brown;
-    font: bold;
-}
-*/
-
 #nav {
     list-style-type: none;      /*untuk menghilangkan tanda list*/
-    background: #f1f1f1;       /*latar belakang untuk elemen list ketika belum aktif*/
-    width: 150px;               /*lebar untuk kotak list*/
-    margin: 0;
+    /*background: #f1f1f1;*/       /*latar belakang untuk elemen list ketika belum aktif*/
+    width: 170px;               /*lebar untuk kotak list*/
+    margin: 1px;
     padding: 0;                 /*setting padding untuk kotak ul*/
-    border:1px #555 solid ;    /*setting border untuk kotak ul*/
+    border:1px solid ;    /*setting border untuk kotak ul*/
     position: fixed;
     height: 100%;
     overflow: auto;
+    /*background-image:url(https://cdn.pixabay.com/photo/2016/10/17/08/19/istanbul-1747157_960_720.png);*/
+    background-image: url('image1.jpg');
+    background-repeat: no-repeat;
+    background-size: 170px 750px;
+}
+
+.dfdf {
+    background-image: url(https://pixabay.com/en/blue-mosque-view-fog-goggy-mosque-201634/);
 }
 
 li a {
+    font-family: sans-serif;
+    color: black;
     font-size: 20px;            /*ukuran tulisan navigasi*/
     text-decoration: none;      /*untuk menghilangkan dekorasi teks seperti garis bawah */
     display: block;             /*menjadikan elemen list nya berjenis block-level*/
@@ -42,16 +38,26 @@ li a:hover {
 
 main {
     margin-top: 1%;
-    margin-left:12%;            /*margin kiri untuk bagian utama halaman*/
+    margin-left:13%;            /*margin kiri untuk bagian utama halaman*/
     padding:0px 16px;          /*ukuran padding bagian utama*/
-    height:1000px;          /*ini dibuat 1000px hanya untuk ngecek
+    height:1600px;          /*ini dibuat 1000px hanya untuk ngecek
                             kalau fixed navigation bar nya bekerja*/
 }
 
+body {
+    background-image: url('https://cdn.pixabay.com/photo/2013/10/28/01/30/blue-mosque-201634_960_720.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
 footer {
-    margin-left: 12%;
+    margin-left: 14%;
 }
 
 #abdullah {
-    margin: 20px;
+    margin: 10px;
+}
+
+#garis-footer {
+    margin-left: 13%;
 }
