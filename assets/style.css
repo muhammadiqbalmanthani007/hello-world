@@ -1,61 +1,74 @@
-#nav {
-    list-style-type: none;      /*untuk menghilangkan tanda list*/
-    /*background: #f1f1f1;*/       /*latar belakang untuk elemen list ketika belum aktif*/
-    width: 170px;               /*lebar untuk kotak list*/
-    margin: 1px;
-    padding: 0;                 /*setting padding untuk kotak ul*/
-    border:1px solid ;    /*setting border untuk kotak ul*/
+
+.nav {
+    overflow: hidden;
+    background-color: rgb(104, 101, 101);
+    top: 0;
     position: fixed;
-    height: 100%;
-    overflow: auto;
-    /*background-image:url(https://cdn.pixabay.com/photo/2016/10/17/08/19/istanbul-1747157_960_720.png);*/
-    background-image: url('image1.jpg');
-    background-repeat: no-repeat;
-    background-size: 170px 750px;
+    width: 100%;
 }
 
-
-li a {
-    font-family: sans-serif;
-    color: black;
-    font-size: 20px;            /*ukuran tulisan navigasi*/
-    text-decoration: none;      /*untuk menghilangkan dekorasi teks seperti garis bawah */
-    display: block;             /*menjadikan elemen list nya berjenis block-level*/
-    padding: 8px 10px;          /*setting padding untuk list, atas bawah 8 pixel, kiri kanan 10 pixel*/
-    border-bottom: 1px #555 solid; /*dari selectr #nav, properti border nya belum
-                                        membuat garis bagian bawah masing-masing menu. Nah dengan
-                                        perintah ini, kita membuat garis bagian bawah untuk masing-masing menu*/
-    /*text-align: justify*/             /*menjadikan teks tulisan menu di tengah*/
+.nav a {
+    float: left;
+    display: block;
+    color: rgb(63, 6, 6);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
 }
 
-li a:hover {
-    background-color: green;    /*jika aktif, latar belakang akan berwarna hijau*/
-    color: white;               /*jika aktif, tulisan akan berwarna putih*/
+.nav a:hover {
+    background-color: rgb(140, 252, 140);    /*jika aktif, latar belakang akan berwarna hijau*/
+    color: gray;               /*jika aktif, tulisan akan berwarna putih*/
 }
 
-main {
-    margin-top: 1%;
-    margin-left:13%;            /*margin kiri untuk bagian utama halaman*/
-    padding:0px 16px;          /*ukuran padding bagian utama*/
-    height:1600px;          /*ini dibuat 1000px hanya untuk ngecek
-                            kalau fixed navigation bar nya bekerja*/
+.main {
+    margin-top: 65px;
+    margin-left: 15px;
 }
 
 body {
     background-image: url('image2.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    background-position: left;
+    margin: 0;
 }
 
 footer {
     margin-left: 14%;
 }
 
-#abdullah {
-    margin: 10px;
+a {
+    text-decoration: none;
 }
 
-#garis-footer {
-    margin-left: 13%;
+p {
+    font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 25px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3b5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55acee;
+    color: white;
 }

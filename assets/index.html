@@ -3,33 +3,35 @@
 
 <head>
     <title>Cara Menghubungkan File CSS ke HTML</title>
-    <link rel="stylesheet" type="text/css" href="style.css"> </head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> </head>
+<header>
+    <div class="nav">
+        <a href="#">Beranda</a>
+        <a href="#">Download</a>
+        <a href="#">Tentang kami</a>
+        <a href="#">Kontak</a>
+        <a href="#"></a>
+    </div>
+</header>
 
 <body>
-    <header class="main-header">
-        <ul id="nav">
-            <li>
-                <a href="#beranda">Beranda</a>
-            </li>
-            <li>
-                <a href="#download">Download</a>
-            </li>
-            <li>
-                <a href="#tentang-kami">Tentang Kami</a>
-            </li>
-            <li>
-                <a href="#kontak">Kontak</a>
-            </li>
-            <li id="abdullah">
-                <p>Nabi Muhammad
-                    <em>shallallahu 'alaihi wasallam</em> bersabda:</p>
-                <p>Barang siapa yang....</p>
-            </li>
-        </ul>
-    </header>
-    <main>
+    <main class="main">
         <div>
-            <h2 id="beranda">Beranda</h2>
+            <ul>
+                <li>
+                    <a href="#bagian1">Bagian 1</a>
+                </li>
+                <li>
+                    <a href="#bagian2">Bagian 2</a>
+                </li>
+                <li>
+                    <a href="#bagian3">Bagian 3</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h2 id="bagian1">Bagian 1</h2>
             <p>Some text..</p>
             <p>Some text..</p>
             <p>Some text..</p>
@@ -43,8 +45,14 @@
             <p>Some text..</p>
             <p>Some text..</p>
             <p>Some text..</p>
-            <p>Some text.......<a href="#" target="_blank">Lihat lebih lanjut</a></p>
-            <h2 id="download">Download</h2>
+            <p>Some text.......
+                <a href="#" target="_blank">Lihat lebih lanjut</a>
+            </p>
+            <br>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <hr>
+            <h2 id="bagian2">Bagian 2</h2>
             <p>Some text..</p>
             <p>Some text..</p>
             <p>Some text..</p>
@@ -58,8 +66,14 @@
             <p>Some text..</p>
             <p>Some text..</p>
             <p>Some text..</p>
-            <p>Some text..........<a href="#" target="_blank">Lihat lebih lanjut</a></p>
-            <h2 id="tentang-kami">Tentang Kami</h2>
+            <p>Some text..........
+                <a href="#" target="_blank">Lihat lebih lanjut</a>
+            </p>
+            <br>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <hr>
+            <h2 id="bagian3">Bagian 3</h2>
             <p>Some text..</p>
             <p>Some text..</p>
             <p>Some text..</p>
@@ -73,7 +87,13 @@
             <p>Some text..</p>
             <p>Some text..</p>
             <p>Some text..</p>
-            <p>Some text.........<a href="#" target="_blank">Lihat lebih lanjut</a></p>
+            <p>Some text.........
+                <a href="#" target="_blank">Lihat lebih lanjut</a>
+            </p>
+            <br>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <hr>
         </div>
     </main>
     <!--<hr id="garis-footer">-->
