@@ -1,26 +1,32 @@
 
 .nav {
     overflow: hidden;
-    background-color: rgb(104, 101, 101);
     top: 0;
     position: fixed;
     width: 100%;
+    background-image: url(https://cdn.pixabay.com/photo/2017/09/14/22/42/milky-way-2750627_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0;
 }
 
 .nav a {
     float: left;
     display: block;
-    color: rgb(63, 6, 6);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 25px;
-}
+    color: red;
+} 
 
+
+
+/*
 .nav a:hover {
-    background-color: rgb(140, 252, 140);    /*jika aktif, latar belakang akan berwarna hijau*/
-    color: gray;               /*jika aktif, tulisan akan berwarna putih*/
-}
+    background-color: rgb(140, 252, 140);    /*jika aktif, latar belakang akan berwarna hijau*/               /*jika aktif, tulisan akan berwarna putih*/
+/*}
+*/
 
 .main {
     margin-top: 65px;
@@ -42,8 +48,12 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color:gold;
+}
+
 p {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -71,4 +81,8 @@ h1, h2, h3, h4, h5, h6 {
 .fa-twitter {
     background: #55acee;
     color: white;
+}
+
+p:first-child { 
+    background-color: yellow;
 }
